@@ -2,7 +2,6 @@
 
 This application is a web-based tool for screening resumes using machine learning models. It classifies resumes into various job categories based on their content.
 ![image](https://github.com/user-attachments/assets/6cb225ba-7ff2-44c8-a09d-0389c5ad93b4)
-
 ## Overview
 
 The application uses the following key components:
