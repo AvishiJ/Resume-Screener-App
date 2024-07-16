@@ -35,7 +35,6 @@ def main():
             resume_text = resume_bytes.decode('latin-1')
 
         cleaned_resume = clean_resume(resume_text)
-        st.write(cleaned_resume)
         input_features = tfidf.transform([cleaned_resume])
         prediction_id = clf.predict(input_features)[0]
         st.write(prediction_id)
